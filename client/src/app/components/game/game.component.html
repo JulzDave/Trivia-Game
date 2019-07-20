@@ -1,0 +1,31 @@
+<div class="cardCont" *ngIf="answers">
+    <div class="feedback red" *ngIf="feedback" [ngClass]="{green: feedback === 'GREAT'}">{{feedback}}</div>
+    <div class="feedback red" *ngIf="gameOver" class="gameOverCont">
+     <p class="gameOver">Game Over!</p> 
+     <p class="endMessage">You have finished the game with {{accuracy}}% accuracy</p>
+    <button class="replay" (click)="replay()">Play Again!</button>
+    </div>
+    <div class="card">
+      <p class="category">{{question.category}}</p>
+      <div class="qCont">
+        <p class="q"> {{question.question}}</p>
+        <p class="a" *ngFor="let answer of answers;index as i" (click)="markSelection($event)"> {{i+1}})  {{answer}}</p>
+      </div>
+      <div class="cardFooter">
+        <p class="difficulty"><b>Difficulty:</b> {{question.difficulty}}</p>
+        <p class="next" (click)="submit()" *ngIf="!gameOver && !roaming" [innerHTML]="submitted ? '&rarr;' : 'Submit!'"></p>
+      </div>
+    </div>
+    <div class="stages">
+      <div *ngFor="let stage of trivia; let i = index" class="stage" (click)="chooseAnswered($event)" [style.border]=" i === currentQuestion ? '3px dotted black' : '3px ridge brown'">{{i + 1}}</div>
+    </div>
+  </div>
+  <!-- <form [formGroup]="addUser" (ngSubmit)="submit()">
+    <input type="text" placeholder="firstName" formControlName="firstName"><br/>
+    <input type="text" placeholder="lastname" formControlName="lastname"><br/>
+    <input type="text" placeholder="age" formControlName="age"><br/>
+    <input type="text" placeholder="email" formControlName="email"><br/>
+    <input type="text" placeholder="companyId" formControlName="companyId">
+    <button>submit</button>
+  </form> -->
+  

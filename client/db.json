@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastname": "Doe",
+      "email": "John@gmail.com",
+      "age": 24,
+      "companyId": "1"
+    },
+    {
+      "id": "2",
+      "firstName": "Mark",
+      "lastname": "Davis",
+      "email": "Mark@gmail.com",
+      "age": 29,
+      "companyId": "1"
+    },
+    {
+      "id": "3",
+      "firstName": "Sara",
+      "lastname": "Sanders",
+      "email": "Sara@gmail.com",
+      "age": 18,
+      "companyId": "2"
+    },
+    {
+      "id": "4",
+      "firstName": "Michelle",
+      "lastname": "Cequ",
+      "email": "Michelle@gmail.com",
+      "age": 43,
+      "companyId": "3"
+    },
+    {
+      "firstName": "Sam",
+      "lastname": "Smith",
+      "email": "sam@gamil.com",
+      "age": "23",
+      "companyId": "2",
+      "id": "jccvKz4"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "apple",
+      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services. It is considered one of the Big Four tech companies along with Amazon, Google, and Facebook."
+    },
+    {
+      "id": "2",
+      "name": "Microsoft",
+      "description": "Microsoft Corporation is an American multinational technology company with headquarters in Redmond, Washington. It develops, manufactures, licenses, supports and sells computer software, consumer electronics, personal computers, and related services."
+    },
+    {
+      "id": "3",
+      "name": "Google",
+      "description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware. It is considered one of the Big Four technology companies, alongside Amazon, Apple and Facebook."
+    }
+  ]
+}

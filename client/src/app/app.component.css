@@ -1,0 +1,17 @@
+.logoCont{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    contain: content;
+}
+
+.logo{
+    width: 75vh;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:700px){
+    .logo {
+        width: 55vh;
+    }
+}

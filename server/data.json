@@ -1,0 +1,124 @@
+{
+    "results": [
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which popular First Person Shooter (FPS) franchise, got a Real Time Strategy (RTS) game developed based on its universe?",
+            "correct_answer": "Halo",
+            "incorrect_answers": [
+                "Battlefield",
+                "Call of Duty",
+                "Borderlands"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who wrote the novel 'Moby-Dick'?",
+            "correct_answer": "Herman Melville",
+            "incorrect_answers": [
+                "William Golding",
+                "William Shakespeare",
+                "J. R. R. Tolkien"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the largest non-continental island in the world?",
+            "correct_answer": "Greenland",
+            "incorrect_answers": [
+                "New Guinea",
+                "Borneo",
+                "Madagascar"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "By what name was the author Eric Blair better known?",
+            "correct_answer": "George Orwell",
+            "incorrect_answers": [
+                "Aldous Huxley",
+                "Ernest Hemingway",
+                "Ray Bradbury"
+            ]
+        },
+        {
+            "category": "Science & Nature",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What was the name of the first artificial Earth satellite, launched by the Soviet Union in 1957?",
+            "correct_answer": "Sputnik 1",
+            "incorrect_answers": [
+                "Soyuz 7K-OK",
+                "Zenit-2",
+                "Voskhod 3KV"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which puzzle game was designed by a Russian programmer, featuring Russian buildings and music?",
+            "correct_answer": "Tetris",
+            "incorrect_answers": [
+                "Jenga",
+                "Boulder Dash",
+                "Puzzled"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the name of the popular animatronic singing fish prop, singing such hits such as `Don't Worry, Be Happy`?",
+            "correct_answer": "Big Mouth Billy Bass",
+            "incorrect_answers": [
+                "Big Billy Bass",
+                "Singing Fish",
+                "Sardeen"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The heavy metal band Black Sabbath hail from which English city?",
+            "correct_answer": "Birmingham",
+            "incorrect_answers": [
+                "Manchester",
+                "London",
+                "Newcastle-Upon-Tyne"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In Margaret Atwood's \"The Handmaid's Tale\", what is Offred's real name is implied to be?",
+            "correct_answer": "June",
+            "incorrect_answers": [
+                "August",
+                "April",
+                "May"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "How many games are there in the \"Colony Wars\" series for the PlayStation?",
+            "correct_answer": "3",
+            "incorrect_answers": [
+                "2",
+                "4",
+                "5"
+            ]
+        }
+    ]
+}

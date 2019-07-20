@@ -1,0 +1,27 @@
+.homeCont{
+    height: fit-content;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.StartBtn{
+    padding: 40px;
+    font-size: 40px;
+    border-radius: 20px;
+    border: 3px ridge darkorange;
+    background: dodgerblue;
+    color: white;
+    font-family: fantasy;
+    cursor: pointer;
+    outline: none
+}
+
+.StartBtn:hover{
+    background: deepskyblue;
+}
+
+.StartBtn:active{
+    background: cornflowerblue;
+}

@@ -1,0 +1,220 @@
+.cardCont{
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    }
+    
+.category{
+    background: rgb(220,0,0);
+    text-align: center;
+    color: white;
+    padding: 6px;
+    font-weight: bold;
+    width: 100%;
+    margin: 0;
+    font-family: monospace;
+    }
+    
+.card{
+    width: 30vw;
+    border: 6px ridge darkorange;
+    contain: content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    background: linear-gradient(45deg, black, transparent);
+    max-height: 90vh;
+    overflow-x: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+    
+.difficulty{
+    background: purple;
+    color: white;
+    padding: 13px;
+    margin: 0;
+    width: fit-content;
+    border-top-right-radius: 16px;
+    user-select: none;
+    }
+    
+.qCont{
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    }
+    
+.q{
+    background: azure;
+    font-family: fantasy;
+    color: brown;
+    margin-top: 0px;
+    }
+    
+.a{
+    text-align: left;
+    text-indent: 18px;
+    background: linear-gradient(45deg, lightblue 60%, transparent 71%);
+    cursor: pointer;
+    border: none;
+    user-select: none;
+    }
+    
+.a:hover{
+    background: linear-gradient(45deg, cyan 60%, transparent 71%);
+    }
+    
+.next{
+    background: greenyellow;
+    border: 3px ridge green;
+    padding: 13px;
+    margin: 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-right: 50px;
+    border-bottom: none;
+    transform: translateY(80px);
+    transition: transform 1000ms;
+    cursor: pointer;
+    font-family: fantasy;
+    pointer-events:none;
+    user-select: none;
+    
+    }
+    
+.next:hover{
+    background:rgb(159, 243, 32)
+    }
+.next:active{
+    background:rgb(158, 207, 60)
+    }
+    
+.cardFooter{
+    display:flex;
+    justify-content: space-between;
+    contain: content;
+    }
+    
+.feedback{
+    position: absolute;
+    z-index: 1;
+    background: white;
+    width: 75vw;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: -webkit-xxx-large;
+    border-radius: 81px;
+    align-self: flex-start;
+    margin-top: 25px;
+    font-family: serif;
+    border: 14px groove slateblue;
+    margin-left: 10%;
+    margin-right: 10%;
+    animation: vanish forwards 1000ms;
+    }
+
+@keyframes vanish {
+    from {visibility: visible;}
+    to {visibility: hidden;}
+    }
+    
+.red{
+    color:red;
+    }
+.green{
+    color:green;
+    }
+    
+.stages{
+    width: 30vw;
+    align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+    }
+    
+.stage{
+    width: 30px;
+    height: 30px;
+    background: grey;
+    border-radius: 50%;
+    border: 3px ridge brown;
+    text-align: center;
+    line-height: 32px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 5px black;
+    -webkit-text-stroke: 0.5px black;
+    font-family: sans-serif;
+    cursor: context-menu;
+    user-select: none;
+    }
+    
+.gameOverCont{
+    position: absolute;
+    z-index: 1;
+    background: white;
+    width: 92vw;
+    text-align: center;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: -webkit-xxx-large;
+    border-radius: 11px;
+    background: rgba(68,154,255,0.8);
+    align-self: center;
+    margin-top: 25px;
+    font-family: fantasy;
+    text-shadow: 0 0 5px rgba(68,154,255,0.8);
+    }
+    
+.gameOver{
+    margin:10px;
+    font-size: 1em;
+    }
+    
+.endMessage{
+    margin:10px;
+    font-size: 0.6em;
+    }
+    
+.replay {
+    padding: 15px;
+    font-size: 0.6em;
+    background: dodgerblue;
+    border: 3px ridge darkorange;
+    margin: 17px;
+    cursor: pointer;
+    }
+    
+.replay:hover{
+    background: rgb(0, 128, 255);
+    }
+.replay:active{
+    background: rgb(0, 70, 255);
+    }
+    
+@media only screen and (max-width: 1080px){
+.card{
+    width: 90vw;
+        }
+.stages{
+    width:90vw
+        }
+    } 
+@media only screen and (max-height: 600px){
+.card{
+    height:70vh;
+    overflow-y: auto;
+        }
+    } 
