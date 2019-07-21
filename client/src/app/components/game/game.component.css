@@ -18,7 +18,7 @@
     }
     
 .card{
-    width: 30vw;
+    width: 50vw;
     border: 6px ridge darkorange;
     contain: content;
     display: flex;
@@ -29,6 +29,8 @@
     overflow-x: hidden;
     margin-top: 30px;
     margin-bottom: 30px;
+    min-height: fit-content;
+    overflow-y: auto;
     }
     
 .difficulty{
@@ -61,6 +63,7 @@
     cursor: pointer;
     border: none;
     user-select: none;
+    text-shadow: 0 0 5px white;
     }
     
 .a:hover{
@@ -99,6 +102,7 @@
     display:flex;
     justify-content: space-between;
     contain: content;
+    margin-top: auto;
     }
     
 .feedback{
@@ -135,7 +139,7 @@
     }
     
 .stages{
-    width: 30vw;
+    width: 50vw;
     align-self: center;
     display: flex;
     justify-content: space-evenly;
@@ -212,9 +216,9 @@
     width:90vw
         }
     } 
-@media only screen and (max-height: 600px){
+/* @media only screen and (max-height: 600px){
 .card{
     height:70vh;
     overflow-y: auto;
         }
-    } 
+    }  */
